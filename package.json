@@ -1,0 +1,25 @@
+{
+  "name": "react-authentication",
+  "version": "1.0.0",
+  "description": "Basic React Authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run dev --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jo-adithya/react-authentication.git"
+  },
+  "author": "Jonathan Adithya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jo-adithya/react-authentication/issues"
+  },
+  "homepage": "https://github.com/jo-adithya/react-authentication#readme",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
